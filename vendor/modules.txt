@@ -121,7 +121,7 @@ github.com/pierrec/lz4/v4/internal/xxh32
 # github.com/pkg/errors v0.9.1
 ## explicit
 github.com/pkg/errors
-# github.com/prometheus/client_golang v1.15.1
+# github.com/prometheus/client_golang v1.16.0
 ## explicit; go 1.17
 github.com/prometheus/client_golang/prometheus
 github.com/prometheus/client_golang/prometheus/internal
@@ -148,7 +148,7 @@ github.com/rcrowley/go-metrics
 # github.com/samuel/go-zookeeper v0.0.0-20190923202752-2cc03de413da
 ## explicit
 github.com/samuel/go-zookeeper/zk
-# github.com/xdg/scram v1.0.3
+# github.com/xdg/scram v1.0.5
 ## explicit
 github.com/xdg/scram
 # github.com/xdg/stringprep v1.0.3

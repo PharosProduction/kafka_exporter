@@ -1,8 +1,10 @@
-FROM        quay.io/prometheus/busybox:latest
-MAINTAINER  Daniel Qian <qsj.daniel@gmail.com>
+FROM quay.io/prometheus/busybox:latest
 
+ARG VERSION
 ARG TARGETARCH
 ARG BIN_DIR=.build/linux-${TARGETARCH}/
+
+ENV ENV_VERSION=VERSION
 
 COPY ${BIN_DIR}/kafka_exporter /bin/kafka_exporter
 
