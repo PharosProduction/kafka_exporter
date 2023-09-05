@@ -34,6 +34,9 @@ vet:
 
 build: promu
 	@echo ">> building binaries"
+	rm go.sum
+	@$(GO) clean -modcache
+	@$(GO) mod tidy
 	@$(GO) mod vendor
 	@$(PROMU) build --prefix $(PREFIX)
 

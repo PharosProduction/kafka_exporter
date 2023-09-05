@@ -514,6 +514,7 @@ func (e *Exporter) collect(ch chan<- prometheus.Metric) {
 			topic, open := <-topicChannel
 			ok = open
 			if open {
+				plog.Debugf("Collecting metrics [%d] for topic %s", id, topic)
 				getTopicMetrics(topic)
 			}
 		}
