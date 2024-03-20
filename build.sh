@@ -4,7 +4,7 @@ AWS_ACCOUNT_ID="968331738002"
 AWS_REGION="us-east-1"
 
 DOCKER_REPO="kafka-exporter"
-DATE="02-09-23"
+DATE="20-03-24"
 VERSION="1"
 
 NAME="kafka-exporter"
